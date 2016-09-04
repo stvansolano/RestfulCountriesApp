@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Xamarin.Forms;
 
-using Xamarin.Forms;
-
+[assembly: Xamarin.Forms.Xaml.XamlCompilation(Xamarin.Forms.Xaml.XamlCompilationOptions.Compile)]
 namespace RestfulCountries
 {
     public partial class App : Application
@@ -13,7 +9,7 @@ namespace RestfulCountries
         {
             InitializeComponent();
 
-            MainPage = new RestfulCountries.MainPage();
+            MainPage = new NavigationPage(new MainPage { Title = "Countries directory"  });
         }
 
         protected override void OnStart()

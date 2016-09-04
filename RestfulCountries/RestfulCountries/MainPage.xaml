@@ -2,10 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RestfulCountries"
-             x:Class="RestfulCountries.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
-
+             x:Class="RestfulCountries.MainPage"
+						 x:Name="RootPage">
+	<Grid>
+		<ActivityIndicator IsRunning="{Binding IsBusy, Source={x:Reference RootPage}}"
+											 IsVisible="{Binding IsBusy, Source={x:Reference RootPage}}"
+											 />
+		<ScrollView VerticalOptions="FillAndExpand">
+			<Label x:Name="Response"
+					Text="[Response here]"				 
+					/>
+		</ScrollView>
+		<ListView ItemsSource="{Binding Countries, Source={x:Reference RootPage}}"
+							VerticalOptions="FillAndExpand">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ImageCell Text="{Binding Name}"
+										 TextColor="Black"
+										 DetailColor="#C0C0C0"
+										 Detail="{Binding Region}"
+										 />
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		<Button x:Name="CallButton"
+						VerticalOptions="End"
+						Text="Call" />
+	</Grid>
 </ContentPage>
