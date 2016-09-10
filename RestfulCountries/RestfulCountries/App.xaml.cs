@@ -9,7 +9,7 @@ namespace RestfulCountries
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage { Title = "Countries directory"  });
+			MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

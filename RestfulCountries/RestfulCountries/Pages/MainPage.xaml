@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:RestfulCountries"
              x:Class="RestfulCountries.MainPage"
-		     x:Name="RootPage">
+		     x:Name="RootPage"
+		     Title="All countries">
 	<Page.ToolbarItems>
 		<ToolbarItem x:Name="CallButton" Command="{Binding CallCommand, Source={x:Reference RootPage}}" Text="Refresh" />
 		<ToolbarItem Command="{Binding StatusCommand, Source={x:Reference RootPage}}" Text="Status" />
@@ -21,18 +22,25 @@
 				  IsPullToRefreshEnabled="True"
 				  IsRefreshing="{Binding IsBusy, Source={x:Reference RootPage}}"
 				  VerticalOptions="FillAndExpand"
-				  RefreshCommand="{Binding CallCommand, Source={x:Reference RootPage}}">
+				  RefreshCommand="{Binding CallCommand, Source={x:Reference RootPage}}"
+				  CachingStrategy="RecycleElement">
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ImageCell Text="{Binding Name}"
+					<ImageCell Text="{Binding Model.Name}"
+							   Detail="{Binding Model.Region}"
 							   TextColor="Black"
 							   DetailColor="#C0C0C0"
-							   Detail="{Binding Region}"
-							   Command="{Binding TapCommand, Source={x:Reference RootPage}}"
+							   Command="{Binding BrowseCommand}"
 							   CommandParameter="{Binding}"
+							   Height="20"
+							   ImageSource="{Binding FlagSource}"
 							   />
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>
+
+		<ActivityIndicator x:Name="Indicator" 
+			               IsRunning="{Binding IsBusy, Source={x:Reference RootPage}}" 
+			               />
 	</Grid>
 </ContentPage>
