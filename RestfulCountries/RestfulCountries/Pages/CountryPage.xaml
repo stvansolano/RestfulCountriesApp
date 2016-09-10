@@ -2,20 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		     x:Class="RestfulCountries.CountryPage"
-			 Title="{Binding Name}">
+			 Title="{Binding Model.Name}"
+		     Icon="{Binding FlagSource}">
 	<ContentPage.Content>
-		<StackLayout Orientation="Vertical">
-			<StackLayout Orientation="Horizontal">
-				<Label Text="Region:" />
-				<Label Text="{Binding Region}" />
-				<Label Text="(" />
-				<Label Text="{Binding SubRegion}" />
-				<Label Text=")" />
+		<Grid Padding="10"
+		      VerticalOptions="Start">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Image Source="{Binding FlagSource}" 
+				   Grid.Column="0"
+					VerticalOptions="Center"
+			       />
+			<StackLayout Orientation="Vertical"
+						 Grid.Column="1"
+						 BindingContext="{Binding Model}"
+					     VerticalOptions="Start"
+					     Padding="0,10,0,0">
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Region:" />
+					<Label Text="{Binding Region}" />
+					<Label Text="(" />
+					<Label Text="{Binding SubRegion}" />
+					<Label Text=")" />
+				</StackLayout>
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Native Name:" />
+					<Label Text="{Binding NativeName}" />
+				</StackLayout>
+
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Native Population:" />
+					<Label Text="{Binding Population}" />
+				</StackLayout>
+
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Code:" />
+					<Label Text="{Binding Alpha2Code}" />
+				</StackLayout>
 			</StackLayout>
-			<StackLayout Orientation="Horizontal">
-				<Label Text="Native Name:" />
-				<Label Text="{Binding NativeName}" />
-			</StackLayout>
-		</StackLayout>
+		</Grid>
 	</ContentPage.Content>
 </ContentPage>

@@ -9,10 +9,11 @@ namespace RestfulCountries
 		public string SubRegion { get; set; }
 		public int Population { get; set; }
 		public string NativeName { get; set; }
+		public string Alpha2Code { get; set; }
+		public string Demonym { get; set; }
 
 		/*
         public List<string> topLevelDomain { get; set; }
-        public string alpha2Code { get; set; }
         public string alpha3Code { get; set; }
         public List<string> currencies { get; set; }
         public List<string> callingCodes { get; set; }
@@ -23,7 +24,7 @@ namespace RestfulCountries
         public Translations translations { get; set; }
 
         public List<double> latlng { get; set; }
-        public string demonym { get; set; }
+
         public double? area { get; set; }
         public double? gini { get; set; }
         public List<string> timezones { get; set; }

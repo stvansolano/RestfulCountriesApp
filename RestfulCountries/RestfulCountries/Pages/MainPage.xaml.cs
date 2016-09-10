@@ -8,20 +8,21 @@ namespace RestfulCountries
 {
     public partial class MainPage
     {
-        private PlainRestClient DataService;
-        public ObservableCollection<Country> Countries { get; set; }
+		protected CountryService DataService { get; set; }
+		protected CountryFlagService FlagService { get; set; }
+
+		public ObservableCollection<CountryViewModel> Countries { get; set; }
 		public ICommand CallCommand { get; set; }
 		public ICommand StatusCommand { get; set; }
-		public ICommand TapCommand { get; set; }
 		public NavigationService NavigationService { get; set; }
 
         public MainPage()
         {
-            Countries = new ObservableCollection<Country>();
-            DataService = new PlainRestClient();
+            Countries = new ObservableCollection<CountryViewModel>();
+            DataService = new CountryService();
+			FlagService = new CountryFlagService();
 			CallCommand = new Command(obj => CallCountries());
 			StatusCommand = new Command(obj => CallPlain());
-			TapCommand = new Command<Country>(obj => BrowseCountry(obj));
 			NavigationService = new NavigationService(Navigation);
 
             InitializeComponent();
@@ -38,7 +39,7 @@ namespace RestfulCountries
 			CallCountries();
 		}
 
-		private async void BrowseCountry(Country obj)
+		private async void BrowseCountry(CountryViewModel obj)
 		{
 			await NavigationService.PushAsync<CountryPage>(obj);
 		}
@@ -73,6 +74,10 @@ namespace RestfulCountries
 
         private async void CallCountries()
         {
+			if (Countries.Any())
+			{
+				Indicator.IsVisible = false;
+			}
             CallButton.Text = "Calling";
             IsBusy = true;
 			List.IsVisible = true;
@@ -86,7 +91,11 @@ namespace RestfulCountries
 
                 foreach (var item in result)
                 {
-                    Countries.Add(item);
+					Countries.Add(new CountryViewModel(item)
+					{
+						FlagSource = ImageSource.FromUri(FlagService.GetFlagSource(item.Alpha2Code)),
+						BrowseCommand = new Command<CountryViewModel>(BrowseCountry)
+					});
                 }
                 Response.Text = string.Empty;
 				StatusPanel.IsVisible = false;
