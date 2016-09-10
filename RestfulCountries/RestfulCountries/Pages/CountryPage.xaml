@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		     x:Class="RestfulCountries.CountryPage"
+			 Title="{Binding Name}">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Region:" />
+				<Label Text="{Binding Region}" />
+				<Label Text="(" />
+				<Label Text="{Binding SubRegion}" />
+				<Label Text=")" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Native Name:" />
+				<Label Text="{Binding NativeName}" />
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RestfulCountries"
+             x:Class="RestfulCountries.MainPage"
+		     x:Name="RootPage">
+	<Page.ToolbarItems>
+		<ToolbarItem x:Name="CallButton" Command="{Binding CallCommand, Source={x:Reference RootPage}}" Text="Refresh" />
+		<ToolbarItem Command="{Binding StatusCommand, Source={x:Reference RootPage}}" Text="Status" />
+	</Page.ToolbarItems>
+	<Grid>
+		<ScrollView x:Name="StatusPanel"
+				    VerticalOptions="FillAndExpand"
+				    IsVisible="false"
+				    Padding="10">
+			<Label x:Name="Response"
+				   Text="[Response here]"			 
+					/>
+		</ScrollView>
+		<ListView x:Name="List" ItemsSource="{Binding Countries, Source={x:Reference RootPage}}"
+				  IsPullToRefreshEnabled="True"
+				  IsRefreshing="{Binding IsBusy, Source={x:Reference RootPage}}"
+				  VerticalOptions="FillAndExpand"
+				  RefreshCommand="{Binding CallCommand, Source={x:Reference RootPage}}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ImageCell Text="{Binding Name}"
+							   TextColor="Black"
+							   DetailColor="#C0C0C0"
+							   Detail="{Binding Region}"
+							   Command="{Binding TapCommand, Source={x:Reference RootPage}}"
+							   CommandParameter="{Binding}"
+							   />
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</Grid>
+</ContentPage>
