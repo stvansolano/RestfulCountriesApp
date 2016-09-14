@@ -14,5 +14,11 @@ namespace RestfulCountries
 		{
 			Model = model;
 		}
+
+		internal bool Matches(string searchText)
+		{
+			return Model != null &&
+				(Model.Name ?? string.Empty).ToLowerInvariant().Contains(searchText.ToLowerInvariant());
+		}
 	}
 }

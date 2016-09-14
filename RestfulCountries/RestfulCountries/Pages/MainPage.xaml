@@ -6,8 +6,15 @@
 		     x:Name="RootPage"
 		     Title="All countries">
 	<Page.ToolbarItems>
-		<ToolbarItem x:Name="CallButton" Command="{Binding CallCommand, Source={x:Reference RootPage}}" Text="Refresh" />
-		<ToolbarItem Command="{Binding StatusCommand, Source={x:Reference RootPage}}" Text="Status" />
+		<ToolbarItem x:Name="CallButton"
+				     Command="{Binding CallCommand, Source={x:Reference RootPage}}" 
+			         Text="Refresh" />
+		<ToolbarItem Command="{Binding StatusCommand, Source={x:Reference RootPage}}"
+					 Order="Secondary"
+			         Text="Status" />
+		<ToolbarItem Command="{Binding SearchCommand, Source={x:Reference RootPage}}"
+					 Order="Secondary"
+			         Text="Search" />
 	</Page.ToolbarItems>
 	<Grid>
 		<ScrollView x:Name="StatusPanel"
