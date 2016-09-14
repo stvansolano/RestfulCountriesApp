@@ -14,6 +14,7 @@ namespace RestfulCountries
 		public ObservableCollection<CountryViewModel> Countries { get; set; }
 		public ICommand CallCommand { get; set; }
 		public ICommand StatusCommand { get; set; }
+		public ICommand SearchCommand { get; set; }
 		public NavigationService NavigationService { get; set; }
 
         public MainPage()
@@ -23,10 +24,12 @@ namespace RestfulCountries
 			FlagService = new CountryFlagService();
 			CallCommand = new Command(obj => CallCountries());
 			StatusCommand = new Command(obj => CallPlain());
+			SearchCommand = new Command(obj => CallSearch());
 			NavigationService = new NavigationService(Navigation);
 
             InitializeComponent();
         }
+
 
 		protected override void OnAppearing()
 		{
@@ -112,5 +115,13 @@ namespace RestfulCountries
                 CallButton.Text = "Refresh";
             }
         }
+
+		private async void CallSearch()
+		{
+			var searchPage = new SearchPage();
+			searchPage.Countries = Countries;
+
+			await NavigationService.PushAsync(searchPage);
+		}
     }
 }
