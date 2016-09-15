@@ -26,6 +26,126 @@ namespace RestfulCountries.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::RestfulCountries.Droid.Resource.Color.hockeyapp_background_header;
+			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::RestfulCountries.Droid.Resource.Color.hockeyapp_background_light;
+			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::RestfulCountries.Droid.Resource.Color.hockeyapp_background_white;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background = global::RestfulCountries.Droid.Resource.Color.hockeyapp_button_background;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_pressed = global::RestfulCountries.Droid.Resource.Color.hockeyapp_button_background_pressed;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_selected = global::RestfulCountries.Droid.Resource.Color.hockeyapp_button_background_selected;
+			global::HockeyApp.Resource.Color.hockeyapp_text_black = global::RestfulCountries.Droid.Resource.Color.hockeyapp_text_black;
+			global::HockeyApp.Resource.Color.hockeyapp_text_light = global::RestfulCountries.Droid.Resource.Color.hockeyapp_text_light;
+			global::HockeyApp.Resource.Color.hockeyapp_text_normal = global::RestfulCountries.Droid.Resource.Color.hockeyapp_text_normal;
+			global::HockeyApp.Resource.Color.hockeyapp_text_white = global::RestfulCountries.Droid.Resource.Color.hockeyapp_text_white;
+			global::HockeyApp.Resource.Drawable.hockeyapp_btn_background = global::RestfulCountries.Droid.Resource.Drawable.hockeyapp_btn_background;
+			global::HockeyApp.Resource.Id.button_add_response = global::RestfulCountries.Droid.Resource.Id.button_add_response;
+			global::HockeyApp.Resource.Id.button_attachment = global::RestfulCountries.Droid.Resource.Id.button_attachment;
+			global::HockeyApp.Resource.Id.button_login = global::RestfulCountries.Droid.Resource.Id.button_login;
+			global::HockeyApp.Resource.Id.button_refresh = global::RestfulCountries.Droid.Resource.Id.button_refresh;
+			global::HockeyApp.Resource.Id.button_send = global::RestfulCountries.Droid.Resource.Id.button_send;
+			global::HockeyApp.Resource.Id.button_update = global::RestfulCountries.Droid.Resource.Id.button_update;
+			global::HockeyApp.Resource.Id.input_email = global::RestfulCountries.Droid.Resource.Id.input_email;
+			global::HockeyApp.Resource.Id.input_message = global::RestfulCountries.Droid.Resource.Id.input_message;
+			global::HockeyApp.Resource.Id.input_name = global::RestfulCountries.Droid.Resource.Id.input_name;
+			global::HockeyApp.Resource.Id.input_password = global::RestfulCountries.Droid.Resource.Id.input_password;
+			global::HockeyApp.Resource.Id.input_subject = global::RestfulCountries.Droid.Resource.Id.input_subject;
+			global::HockeyApp.Resource.Id.label_author = global::RestfulCountries.Droid.Resource.Id.label_author;
+			global::HockeyApp.Resource.Id.label_date = global::RestfulCountries.Droid.Resource.Id.label_date;
+			global::HockeyApp.Resource.Id.label_last_updated = global::RestfulCountries.Droid.Resource.Id.label_last_updated;
+			global::HockeyApp.Resource.Id.label_message = global::RestfulCountries.Droid.Resource.Id.label_message;
+			global::HockeyApp.Resource.Id.label_text = global::RestfulCountries.Droid.Resource.Id.label_text;
+			global::HockeyApp.Resource.Id.label_title = global::RestfulCountries.Droid.Resource.Id.label_title;
+			global::HockeyApp.Resource.Id.label_version = global::RestfulCountries.Droid.Resource.Id.label_version;
+			global::HockeyApp.Resource.Id.list_attachments = global::RestfulCountries.Droid.Resource.Id.list_attachments;
+			global::HockeyApp.Resource.Id.list_feedback_messages = global::RestfulCountries.Droid.Resource.Id.list_feedback_messages;
+			global::HockeyApp.Resource.Id.text_headline = global::RestfulCountries.Droid.Resource.Id.text_headline;
+			global::HockeyApp.Resource.Id.view_header = global::RestfulCountries.Droid.Resource.Id.view_header;
+			global::HockeyApp.Resource.Id.web_update_details = global::RestfulCountries.Droid.Resource.Id.web_update_details;
+			global::HockeyApp.Resource.Id.wrapper_attachments = global::RestfulCountries.Droid.Resource.Id.wrapper_attachments;
+			global::HockeyApp.Resource.Id.wrapper_feedback = global::RestfulCountries.Droid.Resource.Id.wrapper_feedback;
+			global::HockeyApp.Resource.Id.wrapper_feedback_scroll = global::RestfulCountries.Droid.Resource.Id.wrapper_feedback_scroll;
+			global::HockeyApp.Resource.Id.wrapper_messages = global::RestfulCountries.Droid.Resource.Id.wrapper_messages;
+			global::HockeyApp.Resource.Id.wrapper_messages_buttons = global::RestfulCountries.Droid.Resource.Id.wrapper_messages_buttons;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_expiry_info = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_activity_expiry_info;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_feedback = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_activity_feedback;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_login = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_activity_login;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_update = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_activity_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_fragment_update = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_fragment_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_view_feedback_message = global::RestfulCountries.Droid.Resource.Layout.hockeyapp_view_feedback_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_app_name_fallback = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_app_name_fallback;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_neutral_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_crash_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_dialog_error_message;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_dialog_error_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_download_failed_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_download_failed_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_download_failed_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_download_failed_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_error_no_network_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_error_no_network_message;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_expiry_info_text;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_expiry_info_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_file = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_attach_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_picture = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_attach_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_button_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_attachment_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_attachment_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_loading = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_attachment_loading;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_email_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_failed_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_failed_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_fetching_feedback_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_fetching_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_generic_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_last_updated_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_last_updated_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_max_attachments_allowed = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_max_attachments_allowed;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_message_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_message_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_name_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_name_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_refresh_button_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_refresh_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_response_button_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_response_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_file = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_select_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_picture = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_select_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_button_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_send_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_generic_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_send_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_network_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_send_network_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_sending_feedback_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_sending_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_subject_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_subject_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_empty = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_validate_email_empty;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_validate_email_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_name_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_validate_name_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_subject_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_validate_subject_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_text_error = global::RestfulCountries.Droid.Resource.String.hockeyapp_feedback_validate_text_error;
+			global::HockeyApp.Resource.String.hockeyapp_login_email_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_headline_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text_email_only = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_headline_text_email_only;
+			global::HockeyApp.Resource.String.hockeyapp_login_login_button_text = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_login_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_missing_credentials_toast = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_missing_credentials_toast;
+			global::HockeyApp.Resource.String.hockeyapp_login_password_hint = global::RestfulCountries.Droid.Resource.String.hockeyapp_login_password_hint;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_neutral_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_indicator_toast = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_indicator_toast;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_clear = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_menu_clear;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_save = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_menu_save;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_undo = global::RestfulCountries.Droid.Resource.String.hockeyapp_paint_menu_undo;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_permission_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_permission_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_permission_update_message;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_permission_update_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_message = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_negative_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_positive_button = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_title = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_mandatory_toast = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_mandatory_toast;
+			global::HockeyApp.Resource.String.hockeyapp_update_version_details_label = global::RestfulCountries.Droid.Resource.String.hockeyapp_update_version_details_label;
+			global::HockeyApp.Resource.String.library_name = global::RestfulCountries.Droid.Resource.String.library_name;
+			global::HockeyApp.Resource.Style.HockeyApp_ButtonStyle = global::RestfulCountries.Droid.Resource.Style.HockeyApp_ButtonStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_EditTextStyle = global::RestfulCountries.Droid.Resource.Style.HockeyApp_EditTextStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_SingleLineInputStyle = global::RestfulCountries.Droid.Resource.Style.HockeyApp_SingleLineInputStyle;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::RestfulCountries.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::RestfulCountries.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::RestfulCountries.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2431,32 +2551,32 @@ namespace RestfulCountries.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f080047
-			public const int abc_background_cache_hint_selector_material_dark = 2131230791;
+			// aapt resource value: 0x7f080051
+			public const int abc_background_cache_hint_selector_material_dark = 2131230801;
 			
-			// aapt resource value: 0x7f080048
-			public const int abc_background_cache_hint_selector_material_light = 2131230792;
+			// aapt resource value: 0x7f080052
+			public const int abc_background_cache_hint_selector_material_light = 2131230802;
 			
-			// aapt resource value: 0x7f080049
-			public const int abc_color_highlight_material = 2131230793;
+			// aapt resource value: 0x7f080053
+			public const int abc_color_highlight_material = 2131230803;
 			
 			// aapt resource value: 0x7f080004
 			public const int abc_input_method_navigation_guard = 2131230724;
 			
-			// aapt resource value: 0x7f08004a
-			public const int abc_primary_text_disable_only_material_dark = 2131230794;
+			// aapt resource value: 0x7f080054
+			public const int abc_primary_text_disable_only_material_dark = 2131230804;
 			
-			// aapt resource value: 0x7f08004b
-			public const int abc_primary_text_disable_only_material_light = 2131230795;
+			// aapt resource value: 0x7f080055
+			public const int abc_primary_text_disable_only_material_light = 2131230805;
 			
-			// aapt resource value: 0x7f08004c
-			public const int abc_primary_text_material_dark = 2131230796;
+			// aapt resource value: 0x7f080056
+			public const int abc_primary_text_material_dark = 2131230806;
 			
-			// aapt resource value: 0x7f08004d
-			public const int abc_primary_text_material_light = 2131230797;
+			// aapt resource value: 0x7f080057
+			public const int abc_primary_text_material_light = 2131230807;
 			
-			// aapt resource value: 0x7f08004e
-			public const int abc_search_url_text = 2131230798;
+			// aapt resource value: 0x7f080058
+			public const int abc_search_url_text = 2131230808;
 			
 			// aapt resource value: 0x7f080005
 			public const int abc_search_url_text_normal = 2131230725;
@@ -2467,11 +2587,11 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f080007
 			public const int abc_search_url_text_selected = 2131230727;
 			
-			// aapt resource value: 0x7f08004f
-			public const int abc_secondary_text_material_dark = 2131230799;
+			// aapt resource value: 0x7f080059
+			public const int abc_secondary_text_material_dark = 2131230809;
 			
-			// aapt resource value: 0x7f080050
-			public const int abc_secondary_text_material_light = 2131230800;
+			// aapt resource value: 0x7f08005a
+			public const int abc_secondary_text_material_light = 2131230810;
 			
 			// aapt resource value: 0x7f080008
 			public const int accent_material_dark = 2131230728;
@@ -2584,6 +2704,36 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f08001f
 			public const int hint_foreground_material_light = 2131230751;
 			
+			// aapt resource value: 0x7f080047
+			public const int hockeyapp_background_header = 2131230791;
+			
+			// aapt resource value: 0x7f080048
+			public const int hockeyapp_background_light = 2131230792;
+			
+			// aapt resource value: 0x7f080049
+			public const int hockeyapp_background_white = 2131230793;
+			
+			// aapt resource value: 0x7f08004a
+			public const int hockeyapp_button_background = 2131230794;
+			
+			// aapt resource value: 0x7f08004b
+			public const int hockeyapp_button_background_pressed = 2131230795;
+			
+			// aapt resource value: 0x7f08004c
+			public const int hockeyapp_button_background_selected = 2131230796;
+			
+			// aapt resource value: 0x7f08004d
+			public const int hockeyapp_text_black = 2131230797;
+			
+			// aapt resource value: 0x7f08004e
+			public const int hockeyapp_text_light = 2131230798;
+			
+			// aapt resource value: 0x7f08004f
+			public const int hockeyapp_text_normal = 2131230799;
+			
+			// aapt resource value: 0x7f080050
+			public const int hockeyapp_text_white = 2131230800;
+			
 			// aapt resource value: 0x7f080020
 			public const int material_blue_grey_800 = 2131230752;
 			
@@ -2668,11 +2818,11 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f08003b
 			public const int switch_thumb_disabled_material_light = 2131230779;
 			
-			// aapt resource value: 0x7f080051
-			public const int switch_thumb_material_dark = 2131230801;
+			// aapt resource value: 0x7f08005b
+			public const int switch_thumb_material_dark = 2131230811;
 			
-			// aapt resource value: 0x7f080052
-			public const int switch_thumb_material_light = 2131230802;
+			// aapt resource value: 0x7f08005c
+			public const int switch_thumb_material_light = 2131230812;
 			
 			// aapt resource value: 0x7f08003c
 			public const int switch_thumb_normal_material_dark = 2131230780;
@@ -3205,112 +3355,115 @@ namespace RestfulCountries.Droid
 			public const int design_snackbar_background = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int ic_cast_dark = 2130837568;
+			public const int hockeyapp_btn_background = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int ic_cast_disabled_light = 2130837569;
+			public const int ic_cast_dark = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int ic_cast_light = 2130837570;
+			public const int ic_cast_disabled_light = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int ic_cast_off_light = 2130837571;
+			public const int ic_cast_light = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int ic_cast_on_0_light = 2130837572;
+			public const int ic_cast_off_light = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int ic_cast_on_1_light = 2130837573;
+			public const int ic_cast_on_0_light = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int ic_cast_on_2_light = 2130837574;
+			public const int ic_cast_on_1_light = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int ic_cast_on_light = 2130837575;
+			public const int ic_cast_on_2_light = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int ic_media_pause = 2130837576;
+			public const int ic_cast_on_light = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int ic_media_play = 2130837577;
+			public const int ic_media_pause = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int ic_media_route_disabled_mono_dark = 2130837578;
+			public const int ic_media_play = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ic_media_route_off_mono_dark = 2130837579;
+			public const int ic_media_route_disabled_mono_dark = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int ic_media_route_on_0_mono_dark = 2130837580;
+			public const int ic_media_route_off_mono_dark = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_media_route_on_1_mono_dark = 2130837581;
+			public const int ic_media_route_on_0_mono_dark = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_media_route_on_2_mono_dark = 2130837582;
+			public const int ic_media_route_on_1_mono_dark = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_media_route_on_mono_dark = 2130837583;
+			public const int ic_media_route_on_2_mono_dark = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_pause_dark = 2130837584;
+			public const int ic_media_route_on_mono_dark = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_pause_light = 2130837585;
+			public const int ic_pause_dark = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_play_dark = 2130837586;
+			public const int ic_pause_light = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_play_light = 2130837587;
+			public const int ic_play_dark = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_setting_dark = 2130837588;
+			public const int ic_play_light = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_setting_light = 2130837589;
+			public const int ic_setting_dark = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int icon = 2130837590;
+			public const int ic_setting_light = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int mr_ic_cast_dark = 2130837591;
+			public const int icon = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int mr_ic_cast_light = 2130837592;
+			public const int mr_ic_cast_dark = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837593;
+			public const int mr_ic_cast_light = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int mr_ic_media_route_connecting_mono_light = 2130837594;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int mr_ic_media_route_mono_dark = 2130837595;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int mr_ic_media_route_mono_light = 2130837596;
+			public const int mr_ic_media_route_mono_dark = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int mr_ic_pause_dark = 2130837597;
+			public const int mr_ic_media_route_mono_light = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int mr_ic_pause_light = 2130837598;
+			public const int mr_ic_pause_dark = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int mr_ic_play_dark = 2130837599;
+			public const int mr_ic_pause_light = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int mr_ic_play_light = 2130837600;
+			public const int mr_ic_play_dark = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int mr_ic_settings_dark = 2130837601;
+			public const int mr_ic_play_light = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int mr_ic_settings_light = 2130837602;
+			public const int mr_ic_settings_dark = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_template_icon_bg = 2130837603;
+			public const int mr_ic_settings_light = 2130837603;
+			
+			// aapt resource value: 0x7f020064
+			public const int notification_template_icon_bg = 2130837604;
 			
 			static Drawable()
 			{
@@ -3325,8 +3478,8 @@ namespace RestfulCountries.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0074
-			public const int action0 = 2131427444;
+			// aapt resource value: 0x7f0b0090
+			public const int action0 = 2131427472;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int action_bar = 2131427413;
@@ -3352,8 +3505,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b0056
 			public const int action_context_bar = 2131427414;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int action_divider = 2131427448;
+			// aapt resource value: 0x7f0b0094
+			public const int action_divider = 2131427476;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -3379,8 +3532,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b001c
 			public const int always = 2131427356;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int art = 2131427436;
+			// aapt resource value: 0x7f0b0088
+			public const int art = 2131427464;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
@@ -3391,11 +3544,29 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b004b
 			public const int buttonPanel = 2131427403;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int buttons = 2131427441;
+			// aapt resource value: 0x7f0b0073
+			public const int button_add_response = 2131427443;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int cancel_action = 2131427445;
+			// aapt resource value: 0x7f0b006e
+			public const int button_attachment = 2131427438;
+			
+			// aapt resource value: 0x7f0b0078
+			public const int button_login = 2131427448;
+			
+			// aapt resource value: 0x7f0b0074
+			public const int button_refresh = 2131427444;
+			
+			// aapt resource value: 0x7f0b006f
+			public const int button_send = 2131427439;
+			
+			// aapt resource value: 0x7f0b007c
+			public const int button_update = 2131427452;
+			
+			// aapt resource value: 0x7f0b008d
+			public const int buttons = 2131427469;
+			
+			// aapt resource value: 0x7f0b0091
+			public const int cancel_action = 2131427473;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int center = 2131427369;
@@ -3409,8 +3580,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int checkbox = 2131427405;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int chronometer = 2131427451;
+			// aapt resource value: 0x7f0b0097
+			public const int chronometer = 2131427479;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int clip_horizontal = 2131427377;
@@ -3436,14 +3607,14 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b003e
 			public const int default_activity_button = 2131427390;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int default_control_frame = 2131427435;
+			// aapt resource value: 0x7f0b0087
+			public const int default_control_frame = 2131427463;
 			
 			// aapt resource value: 0x7f0b000d
 			public const int disableHome = 2131427341;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int disconnect = 2131427442;
+			// aapt resource value: 0x7f0b008e
+			public const int disconnect = 2131427470;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int edit_query = 2131427415;
@@ -3451,8 +3622,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int end_padder = 2131427456;
+			// aapt resource value: 0x7f0b009c
+			public const int end_padder = 2131427484;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int enterAlways = 2131427362;
@@ -3496,38 +3667,80 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b003d
 			public const int image = 2131427389;
 			
+			// aapt resource value: 0x7f0b009b
+			public const int info = 2131427483;
+			
+			// aapt resource value: 0x7f0b006a
+			public const int input_email = 2131427434;
+			
+			// aapt resource value: 0x7f0b006c
+			public const int input_message = 2131427436;
+			
+			// aapt resource value: 0x7f0b0069
+			public const int input_name = 2131427433;
+			
+			// aapt resource value: 0x7f0b0077
+			public const int input_password = 2131427447;
+			
+			// aapt resource value: 0x7f0b006b
+			public const int input_subject = 2131427435;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int label_author = 2131427454;
+			
 			// aapt resource value: 0x7f0b007f
-			public const int info = 2131427455;
+			public const int label_date = 2131427455;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int label_last_updated = 2131427441;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int label_message = 2131427430;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int label_text = 2131427456;
+			
+			// aapt resource value: 0x7f0b007a
+			public const int label_title = 2131427450;
+			
+			// aapt resource value: 0x7f0b007b
+			public const int label_version = 2131427451;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int left = 2131427373;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int line1 = 2131427449;
+			// aapt resource value: 0x7f0b0095
+			public const int line1 = 2131427477;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int line3 = 2131427453;
+			// aapt resource value: 0x7f0b0099
+			public const int line3 = 2131427481;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int listMode = 2131427338;
 			
+			// aapt resource value: 0x7f0b0081
+			public const int list_attachments = 2131427457;
+			
+			// aapt resource value: 0x7f0b0075
+			public const int list_feedback_messages = 2131427445;
+			
 			// aapt resource value: 0x7f0b003f
 			public const int list_item = 2131427391;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int media_actions = 2131427447;
+			// aapt resource value: 0x7f0b0093
+			public const int media_actions = 2131427475;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int media_route_control_frame = 2131427434;
+			// aapt resource value: 0x7f0b0086
+			public const int media_route_control_frame = 2131427462;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int media_route_list = 2131427430;
+			// aapt resource value: 0x7f0b0082
+			public const int media_route_list = 2131427458;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int media_route_volume_layout = 2131427439;
+			// aapt resource value: 0x7f0b008b
+			public const int media_route_volume_layout = 2131427467;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int media_route_volume_slider = 2131427440;
+			// aapt resource value: 0x7f0b008c
+			public const int media_route_volume_slider = 2131427468;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -3556,8 +3769,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b0027
 			public const int pin = 2131427367;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int play_pause = 2131427437;
+			// aapt resource value: 0x7f0b0089
+			public const int play_pause = 2131427465;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -3571,8 +3784,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b002e
 			public const int right = 2131427374;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int route_name = 2131427432;
+			// aapt resource value: 0x7f0b0084
+			public const int route_name = 2131427460;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -3619,8 +3832,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b0063
 			public const int select_dialog_listview = 2131427427;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int settings = 2131427433;
+			// aapt resource value: 0x7f0b0085
+			public const int settings = 2131427461;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int shortcut = 2131427406;
@@ -3634,8 +3847,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b0012
 			public const int showTitle = 2131427346;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int sliding_tabs = 2131427457;
+			// aapt resource value: 0x7f0b009d
+			public const int sliding_tabs = 2131427485;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int snackbar_action = 2131427429;
@@ -3658,44 +3871,47 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b002f
 			public const int start = 2131427375;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int status_bar_latest_event_content = 2131427446;
+			// aapt resource value: 0x7f0b0092
+			public const int status_bar_latest_event_content = 2131427474;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int stop = 2131427443;
+			// aapt resource value: 0x7f0b008f
+			public const int stop = 2131427471;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int submit_area = 2131427424;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int subtitle = 2131427438;
+			// aapt resource value: 0x7f0b008a
+			public const int subtitle = 2131427466;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int tabMode = 2131427340;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int text = 2131427454;
+			// aapt resource value: 0x7f0b009a
+			public const int text = 2131427482;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int text2 = 2131427452;
+			// aapt resource value: 0x7f0b0098
+			public const int text2 = 2131427480;
 			
 			// aapt resource value: 0x7f0b0048
 			public const int textSpacerNoButtons = 2131427400;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int time = 2131427450;
+			// aapt resource value: 0x7f0b0076
+			public const int text_headline = 2131427446;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int time = 2131427478;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int title = 2131427393;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int title_bar = 2131427431;
+			// aapt resource value: 0x7f0b0083
+			public const int title_bar = 2131427459;
 			
 			// aapt resource value: 0x7f0b0044
 			public const int title_template = 2131427396;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int toolbar = 2131427458;
+			// aapt resource value: 0x7f0b009e
+			public const int toolbar = 2131427486;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int top = 2131427376;
@@ -3709,14 +3925,35 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f0b0013
 			public const int useLogo = 2131427347;
 			
+			// aapt resource value: 0x7f0b0079
+			public const int view_header = 2131427449;
+			
 			// aapt resource value: 0x7f0b0009
 			public const int view_offset_helper = 2131427337;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int web_update_details = 2131427453;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int withText = 2131427360;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int wrap_content = 2131427361;
+			
+			// aapt resource value: 0x7f0b006d
+			public const int wrapper_attachments = 2131427437;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int wrapper_feedback = 2131427432;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int wrapper_feedback_scroll = 2131427431;
+			
+			// aapt resource value: 0x7f0b0070
+			public const int wrapper_messages = 2131427440;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int wrapper_messages_buttons = 2131427442;
 			
 			static Id()
 			{
@@ -3862,55 +4099,73 @@ namespace RestfulCountries.Droid
 			public const int design_navigation_menu = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int mr_media_route_chooser_dialog = 2130903073;
+			public const int hockeyapp_activity_expiry_info = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int mr_media_route_controller_material_dialog_b = 2130903074;
+			public const int hockeyapp_activity_feedback = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int mr_media_route_list_item = 2130903075;
+			public const int hockeyapp_activity_login = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_media_action = 2130903076;
+			public const int hockeyapp_activity_update = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_media_cancel_action = 2130903077;
+			public const int hockeyapp_fragment_update = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_big_media = 2130903078;
+			public const int hockeyapp_view_feedback_message = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_big_media_narrow = 2130903079;
+			public const int mr_media_route_chooser_dialog = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_lines = 2130903080;
+			public const int mr_media_route_controller_material_dialog_b = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_media = 2130903081;
+			public const int mr_media_route_list_item = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_part_chronometer = 2130903082;
+			public const int notification_media_action = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_part_time = 2130903083;
+			public const int notification_media_cancel_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int select_dialog_item_material = 2130903084;
+			public const int notification_template_big_media = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int select_dialog_multichoice_material = 2130903085;
+			public const int notification_template_big_media_narrow = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int select_dialog_singlechoice_material = 2130903086;
+			public const int notification_template_lines = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int support_simple_spinner_dropdown_item = 2130903087;
+			public const int notification_template_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int Tabbar = 2130903088;
+			public const int notification_template_part_chronometer = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int Toolbar = 2130903089;
+			public const int notification_template_part_time = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int select_dialog_item_material = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int select_dialog_multichoice_material = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int select_dialog_singlechoice_material = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int support_simple_spinner_dropdown_item = 2130903093;
+			
+			// aapt resource value: 0x7f030036
+			public const int Tabbar = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public const int Toolbar = 2130903095;
 			
 			static Layout()
 			{
@@ -3985,6 +4240,222 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f05001d
 			public const int appbar_scrolling_view_behavior = 2131034141;
 			
+			// aapt resource value: 0x7f050021
+			public const int hockeyapp_crash_dialog_app_name_fallback = 2131034145;
+			
+			// aapt resource value: 0x7f050022
+			public const int hockeyapp_crash_dialog_message = 2131034146;
+			
+			// aapt resource value: 0x7f050023
+			public const int hockeyapp_crash_dialog_negative_button = 2131034147;
+			
+			// aapt resource value: 0x7f050024
+			public const int hockeyapp_crash_dialog_neutral_button = 2131034148;
+			
+			// aapt resource value: 0x7f050025
+			public const int hockeyapp_crash_dialog_positive_button = 2131034149;
+			
+			// aapt resource value: 0x7f050026
+			public const int hockeyapp_crash_dialog_title = 2131034150;
+			
+			// aapt resource value: 0x7f050027
+			public const int hockeyapp_dialog_error_message = 2131034151;
+			
+			// aapt resource value: 0x7f050028
+			public const int hockeyapp_dialog_error_title = 2131034152;
+			
+			// aapt resource value: 0x7f050029
+			public const int hockeyapp_dialog_negative_button = 2131034153;
+			
+			// aapt resource value: 0x7f05002a
+			public const int hockeyapp_dialog_positive_button = 2131034154;
+			
+			// aapt resource value: 0x7f05002b
+			public const int hockeyapp_download_failed_dialog_message = 2131034155;
+			
+			// aapt resource value: 0x7f05002c
+			public const int hockeyapp_download_failed_dialog_negative_button = 2131034156;
+			
+			// aapt resource value: 0x7f05002d
+			public const int hockeyapp_download_failed_dialog_positive_button = 2131034157;
+			
+			// aapt resource value: 0x7f05002e
+			public const int hockeyapp_download_failed_dialog_title = 2131034158;
+			
+			// aapt resource value: 0x7f05002f
+			public const int hockeyapp_error_no_network_message = 2131034159;
+			
+			// aapt resource value: 0x7f050030
+			public const int hockeyapp_expiry_info_text = 2131034160;
+			
+			// aapt resource value: 0x7f050031
+			public const int hockeyapp_expiry_info_title = 2131034161;
+			
+			// aapt resource value: 0x7f050032
+			public const int hockeyapp_feedback_attach_file = 2131034162;
+			
+			// aapt resource value: 0x7f050033
+			public const int hockeyapp_feedback_attach_picture = 2131034163;
+			
+			// aapt resource value: 0x7f050034
+			public const int hockeyapp_feedback_attachment_button_text = 2131034164;
+			
+			// aapt resource value: 0x7f050035
+			public const int hockeyapp_feedback_attachment_error = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int hockeyapp_feedback_attachment_loading = 2131034166;
+			
+			// aapt resource value: 0x7f050037
+			public const int hockeyapp_feedback_email_hint = 2131034167;
+			
+			// aapt resource value: 0x7f050038
+			public const int hockeyapp_feedback_failed_text = 2131034168;
+			
+			// aapt resource value: 0x7f050039
+			public const int hockeyapp_feedback_failed_title = 2131034169;
+			
+			// aapt resource value: 0x7f05003a
+			public const int hockeyapp_feedback_fetching_feedback_text = 2131034170;
+			
+			// aapt resource value: 0x7f05003b
+			public const int hockeyapp_feedback_generic_error = 2131034171;
+			
+			// aapt resource value: 0x7f05003c
+			public const int hockeyapp_feedback_last_updated_text = 2131034172;
+			
+			// aapt resource value: 0x7f05003d
+			public const int hockeyapp_feedback_max_attachments_allowed = 2131034173;
+			
+			// aapt resource value: 0x7f05003e
+			public const int hockeyapp_feedback_message_hint = 2131034174;
+			
+			// aapt resource value: 0x7f05003f
+			public const int hockeyapp_feedback_name_hint = 2131034175;
+			
+			// aapt resource value: 0x7f050040
+			public const int hockeyapp_feedback_refresh_button_text = 2131034176;
+			
+			// aapt resource value: 0x7f050041
+			public const int hockeyapp_feedback_response_button_text = 2131034177;
+			
+			// aapt resource value: 0x7f050042
+			public const int hockeyapp_feedback_select_file = 2131034178;
+			
+			// aapt resource value: 0x7f050043
+			public const int hockeyapp_feedback_select_picture = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int hockeyapp_feedback_send_button_text = 2131034180;
+			
+			// aapt resource value: 0x7f050045
+			public const int hockeyapp_feedback_send_generic_error = 2131034181;
+			
+			// aapt resource value: 0x7f050046
+			public const int hockeyapp_feedback_send_network_error = 2131034182;
+			
+			// aapt resource value: 0x7f050047
+			public const int hockeyapp_feedback_sending_feedback_text = 2131034183;
+			
+			// aapt resource value: 0x7f050048
+			public const int hockeyapp_feedback_subject_hint = 2131034184;
+			
+			// aapt resource value: 0x7f050049
+			public const int hockeyapp_feedback_title = 2131034185;
+			
+			// aapt resource value: 0x7f05004a
+			public const int hockeyapp_feedback_validate_email_empty = 2131034186;
+			
+			// aapt resource value: 0x7f05004b
+			public const int hockeyapp_feedback_validate_email_error = 2131034187;
+			
+			// aapt resource value: 0x7f05004c
+			public const int hockeyapp_feedback_validate_name_error = 2131034188;
+			
+			// aapt resource value: 0x7f05004d
+			public const int hockeyapp_feedback_validate_subject_error = 2131034189;
+			
+			// aapt resource value: 0x7f05004e
+			public const int hockeyapp_feedback_validate_text_error = 2131034190;
+			
+			// aapt resource value: 0x7f05004f
+			public const int hockeyapp_login_email_hint = 2131034191;
+			
+			// aapt resource value: 0x7f050050
+			public const int hockeyapp_login_headline_text = 2131034192;
+			
+			// aapt resource value: 0x7f050051
+			public const int hockeyapp_login_headline_text_email_only = 2131034193;
+			
+			// aapt resource value: 0x7f050052
+			public const int hockeyapp_login_login_button_text = 2131034194;
+			
+			// aapt resource value: 0x7f050053
+			public const int hockeyapp_login_missing_credentials_toast = 2131034195;
+			
+			// aapt resource value: 0x7f050054
+			public const int hockeyapp_login_password_hint = 2131034196;
+			
+			// aapt resource value: 0x7f050055
+			public const int hockeyapp_paint_dialog_message = 2131034197;
+			
+			// aapt resource value: 0x7f050056
+			public const int hockeyapp_paint_dialog_negative_button = 2131034198;
+			
+			// aapt resource value: 0x7f050057
+			public const int hockeyapp_paint_dialog_neutral_button = 2131034199;
+			
+			// aapt resource value: 0x7f050058
+			public const int hockeyapp_paint_dialog_positive_button = 2131034200;
+			
+			// aapt resource value: 0x7f050059
+			public const int hockeyapp_paint_indicator_toast = 2131034201;
+			
+			// aapt resource value: 0x7f05005a
+			public const int hockeyapp_paint_menu_clear = 2131034202;
+			
+			// aapt resource value: 0x7f05005b
+			public const int hockeyapp_paint_menu_save = 2131034203;
+			
+			// aapt resource value: 0x7f05005c
+			public const int hockeyapp_paint_menu_undo = 2131034204;
+			
+			// aapt resource value: 0x7f05005d
+			public const int hockeyapp_permission_dialog_negative_button = 2131034205;
+			
+			// aapt resource value: 0x7f05005e
+			public const int hockeyapp_permission_dialog_positive_button = 2131034206;
+			
+			// aapt resource value: 0x7f05005f
+			public const int hockeyapp_permission_update_message = 2131034207;
+			
+			// aapt resource value: 0x7f050060
+			public const int hockeyapp_permission_update_title = 2131034208;
+			
+			// aapt resource value: 0x7f050061
+			public const int hockeyapp_update_button = 2131034209;
+			
+			// aapt resource value: 0x7f050062
+			public const int hockeyapp_update_dialog_message = 2131034210;
+			
+			// aapt resource value: 0x7f050063
+			public const int hockeyapp_update_dialog_negative_button = 2131034211;
+			
+			// aapt resource value: 0x7f050064
+			public const int hockeyapp_update_dialog_positive_button = 2131034212;
+			
+			// aapt resource value: 0x7f050065
+			public const int hockeyapp_update_dialog_title = 2131034213;
+			
+			// aapt resource value: 0x7f050066
+			public const int hockeyapp_update_mandatory_toast = 2131034214;
+			
+			// aapt resource value: 0x7f050067
+			public const int hockeyapp_update_version_details_label = 2131034215;
+			
+			// aapt resource value: 0x7f050020
+			public const int library_name = 2131034144;
+			
 			// aapt resource value: 0x7f050000
 			public const int mr_media_route_button_content_description = 2131034112;
 			
@@ -4046,8 +4517,8 @@ namespace RestfulCountries.Droid
 			// aapt resource value: 0x7f070084
 			public const int Animation_AppCompat_DropDownUp = 2131165316;
 			
-			// aapt resource value: 0x7f070146
-			public const int AppCompatDialogStyle = 2131165510;
+			// aapt resource value: 0x7f070149
+			public const int AppCompatDialogStyle = 2131165513;
 			
 			// aapt resource value: 0x7f070085
 			public const int Base_AlertDialog_AppCompat = 2131165317;
@@ -4476,10 +4947,19 @@ namespace RestfulCountries.Droid
 			public const int CardView_Light = 2131165190;
 			
 			// aapt resource value: 0x7f070144
-			public const int MainTheme = 2131165508;
+			public const int HockeyApp_ButtonStyle = 2131165508;
 			
 			// aapt resource value: 0x7f070145
-			public const int MainTheme_Base = 2131165509;
+			public const int HockeyApp_EditTextStyle = 2131165509;
+			
+			// aapt resource value: 0x7f070146
+			public const int HockeyApp_SingleLineInputStyle = 2131165510;
+			
+			// aapt resource value: 0x7f070147
+			public const int MainTheme = 2131165511;
+			
+			// aapt resource value: 0x7f070148
+			public const int MainTheme_Base = 2131165512;
 			
 			// aapt resource value: 0x7f070016
 			public const int Platform_AppCompat = 2131165206;
