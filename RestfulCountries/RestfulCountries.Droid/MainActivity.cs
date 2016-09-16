@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using HockeyApp.Android;
+using HockeyApp.Android.Utils;
 
 namespace RestfulCountries.Droid
 {
@@ -14,6 +16,9 @@ namespace RestfulCountries.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
+            CrashManager.Register(this, App.Keys.ANALYTICS);
+            HockeyLog.LogLevel = 4; // Info, show informative or higher log messages
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
