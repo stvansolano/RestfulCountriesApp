@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		     x:Class="RestfulCountries.CountryPage"
-			 Title="{Binding Model.Name}"
-		     Icon="{Binding FlagSource}">
+						 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+						 x:Class="RestfulCountries.CountryPage"
+						 Title="{Binding Title}"
+						 Icon="{Binding FlagSource}"
+						 x:Name="RootPage">
 	<ContentPage.Content>
 		<Grid Padding="10"
 		      VerticalOptions="Start">
@@ -12,36 +13,21 @@
 				<ColumnDefinition Width="*" />
 			</Grid.ColumnDefinitions>
 			<Image Source="{Binding FlagSource}" 
-				   Grid.Column="0"
-					VerticalOptions="Center"
+						 Grid.Column="0"
+						 VerticalOptions="Start"
 			       />
-			<StackLayout Orientation="Vertical"
-						 Grid.Column="1"
-						 BindingContext="{Binding Model}"
-					     VerticalOptions="Start"
-					     Padding="0,10,0,0">
-				<StackLayout Orientation="Horizontal">
-					<Label Text="Region:" />
-					<Label Text="{Binding Region}" />
-					<Label Text="(" />
-					<Label Text="{Binding SubRegion}" />
-					<Label Text=")" />
-				</StackLayout>
-				<StackLayout Orientation="Horizontal">
-					<Label Text="Native Name:" />
-					<Label Text="{Binding NativeName}" />
-				</StackLayout>
-
-				<StackLayout Orientation="Horizontal">
-					<Label Text="Native Population:" />
-					<Label Text="{Binding Population}" />
-				</StackLayout>
-
-				<StackLayout Orientation="Horizontal">
-					<Label Text="Code:" />
-					<Label Text="{Binding Alpha2Code}" />
-				</StackLayout>
-			</StackLayout>
+			<ListView Grid.Column="1"
+								ItemsSource="{Binding Details}">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ImageCell ImageSource="{Binding Image}"
+											 Text="{Binding Name}"
+											 Detail="{Binding Value}"
+											 />
+							/>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
 		</Grid>
 	</ContentPage.Content>
 </ContentPage>
