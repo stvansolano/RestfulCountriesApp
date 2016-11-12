@@ -1,33 +1,27 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-						 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-						 x:Class="RestfulCountries.CountryPage"
-						 Title="{Binding Title}"
-						 Icon="{Binding FlagSource}"
-						 x:Name="RootPage">
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="RestfulCountries.CountryPage"
+			 Title="{Binding Title}"
+			 Icon="{Binding FlagSource}"
+			 x:Name="RootPage">
 	<ContentPage.Content>
-		<Grid Padding="10"
-		      VerticalOptions="Start">
-			<Grid.ColumnDefinitions>
-				<ColumnDefinition Width="Auto" />
-				<ColumnDefinition Width="*" />
-			</Grid.ColumnDefinitions>
-			<Image Source="{Binding FlagSource}" 
-						 Grid.Column="0"
-						 VerticalOptions="Start"
-			       />
-			<ListView Grid.Column="1"
-								ItemsSource="{Binding Details}">
+		<Grid Padding="10">
+			<ListView ItemsSource="{Binding Details}"
+					  VerticalOptions="Start">
 				<ListView.ItemTemplate>
 					<DataTemplate>
 						<ImageCell ImageSource="{Binding Image}"
-											 Text="{Binding Name}"
-											 Detail="{Binding Value}"
-											 />
-							/>
+								   Text="{Binding Name}"
+								   Detail="{Binding Value}"
+								   />
 					</DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>
+			<Image Source="{Binding FlagSource}"
+				   VerticalOptions="Start"
+				   HorizontalOptions="End"
+			       />
 		</Grid>
 	</ContentPage.Content>
 </ContentPage>

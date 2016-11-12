@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:RestfulCountries"
+             xmlns:local="clr-namespace:RestfulCountries;assembly=RestfulCountries"
              x:Class="RestfulCountries.MainPage"
 		     x:Name="RootPage"
 		     Title="All countries">
@@ -17,37 +17,29 @@
 			         Text="Search" />
 	</Page.ToolbarItems>
 	<Grid>
+		<ActivityIndicator x:Name="Indicator" 
+			               IsRunning="{Binding IsBusy, Source={x:Reference RootPage}}" 
+			               />
 		<ScrollView x:Name="StatusPanel"
 				    VerticalOptions="FillAndExpand"
 				    IsVisible="false"
 				    Padding="10">
 			<Label x:Name="Response"
 				   Text="[Response here]"			 
-					/>
+				   />
 		</ScrollView>
 		<ListView x:Name="List" ItemsSource="{Binding Countries, Source={x:Reference RootPage}}"
 				  IsPullToRefreshEnabled="True"
 				  IsRefreshing="{Binding IsBusy, Source={x:Reference RootPage}}"
 				  VerticalOptions="FillAndExpand"
 				  RefreshCommand="{Binding CallCommand, Source={x:Reference RootPage}}"
-				  CachingStrategy="RecycleElement">
+				  CachingStrategy="RecycleElement"
+				  HasUnevenRows="True">
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ImageCell Text="{Binding Model.Name}"
-							   Detail="{Binding Model.Region}"
-							   TextColor="Black"
-							   DetailColor="#C0C0C0"
-							   Command="{Binding BrowseCommand}"
-							   CommandParameter="{Binding}"
-							   Height="20"
-							   ImageSource="{Binding FlagSource}"
-							   />
+					<local:CountryCell />
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>
-
-		<ActivityIndicator x:Name="Indicator" 
-			               IsRunning="{Binding IsBusy, Source={x:Reference RootPage}}" 
-			               />
 	</Grid>
 </ContentPage>

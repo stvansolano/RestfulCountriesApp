@@ -9,7 +9,6 @@ namespace RestfulCountries
     public partial class MainPage
     {
 		protected CountryService DataService { get; set; }
-		protected CountryFlagService FlagService { get; set; }
 
 		public ObservableCollection<CountryViewModel> Countries { get; set; }
 		public ICommand CallCommand { get; set; }
@@ -21,13 +20,21 @@ namespace RestfulCountries
         {
             Countries = new ObservableCollection<CountryViewModel>();
             DataService = new CountryService();
-			FlagService = new CountryFlagService();
 			CallCommand = new Command(obj => CallCountries());
 			StatusCommand = new Command(obj => CallPlain());
 			SearchCommand = new Command(obj => CallSearch());
 			NavigationService = new NavigationService(Navigation);
 
             InitializeComponent();
+
+			List.ItemTapped += (sender, e) => {
+				var viewModel = ((ListView)sender).BindingContext as CountryViewModel;
+
+				if (viewModel != null && viewModel.BrowseCommand != null)
+				{
+					viewModel.BrowseCommand.Execute(((ListView)sender).BindingContext);
+				}
+			};
         }
 
 
@@ -96,7 +103,7 @@ namespace RestfulCountries
                 {
 					Countries.Add(new CountryViewModel(item)
 					{
-						FlagSource = ImageSource.FromUri(FlagService.GetFlagSource(item.Alpha2Code)),
+						FlagSource = ImageSource.FromUri(DataService.GetFlagSource(item.Alpha2Code)),
 						BrowseCommand = new Command<CountryViewModel>(BrowseCountry)
 					});
                 }

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:RestfulCountries"
+             xmlns:local="clr-namespace:RestfulCountries;assembly=RestfulCountries"
              x:Class="RestfulCountries.SearchPage"
 		     x:Name="RootPage"
 		     Title="Search countries">
@@ -10,18 +10,11 @@
 		<ListView ItemsSource="{Binding Results, Source={x:Reference RootPage}}"
 				  IsPullToRefreshEnabled="False"
 				  VerticalOptions="FillAndExpand"
-				  CachingStrategy="RecycleElement">
+				  CachingStrategy="RecycleElement"
+				  HasUnevenRows="True">
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ImageCell Text="{Binding Model.Name}"
-							   Detail="{Binding Model.Region}"
-							   TextColor="Black"
-							   DetailColor="#C0C0C0"
-							   Command="{Binding BrowseCommand}"
-							   CommandParameter="{Binding}"
-							   Height="20"
-							   ImageSource="{Binding FlagSource}"
-							   />
+					<local:CountryCell />
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>

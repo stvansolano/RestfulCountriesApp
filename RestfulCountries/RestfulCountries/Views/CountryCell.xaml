@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+		  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		  x:Class="RestfulCountries.CountryCell"
+		  xmlns:system="clr-namespace:System;assembly=mscorlib">
+		<StackLayout Orientation="Horizontal">
+			<StackLayout.Margin>
+				<OnPlatform x:TypeArguments="Thickness">
+					<OnPlatform.iOS>20,10,10,10</OnPlatform.iOS>
+					<OnPlatform.Android>20,10,10,10</OnPlatform.Android>
+				</OnPlatform>
+			</StackLayout.Margin>
+			<StackLayout.HeightRequest>
+				<OnPlatform x:TypeArguments="system:Double">
+					<OnPlatform.iOS>70</OnPlatform.iOS>
+					<OnPlatform.Android>50</OnPlatform.Android>
+				</OnPlatform>
+			</StackLayout.HeightRequest>
+			<Image Source="{Binding FlagSource}" Aspect="Fill"
+				   HeightRequest="30" WidthRequest="70"
+				   />
+		   <StackLayout Orientation="Vertical"
+						Margin="10,0,10,0"
+						VerticalOptions="FillAndExpand">
+		   		<Label Text="{Binding Model.Name}"
+					   LineBreakMode="TailTruncation"
+		   		       Margin="0" FontSize="20"
+					   TextColor="Black" />
+		   		<Label Text="{Binding Model.Region}"
+					   Margin="0"
+					   TextColor="#C0C0C0" />
+			</StackLayout>
+			<StackLayout.GestureRecognizers>
+				<TapGestureRecognizer Command="{Binding BrowseCommand}" 
+									  CommandParameter="{Binding}" 
+									  />
+			</StackLayout.GestureRecognizers>
+		</StackLayout>
+</ViewCell>

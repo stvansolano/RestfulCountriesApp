@@ -15,7 +15,6 @@ namespace RestfulCountries
             Navigation = navigation;
         }
 
-
         public Task PushAsync<T>()
             where T : Page, new()
         {
@@ -69,28 +68,16 @@ namespace RestfulCountries
             return Task.Run(() => { });
         }
 
-        public Task PopAsync<T>()
-            where T : Page, new()
+        public Task PopAsync()
         {
             Contract.Ensures(Contract.Result<Task>() != null);
 
-            try
-            {
-                var page = new T();
-
-                return Navigation.PopAsync(true);
-            }
-            catch (Exception ex)
-            {
-                Log(ex);
-            }
-            return Task.Run(() => { });
+			return Navigation.PopAsync(true);
         }
 
         private void Log(Exception ex)
         {
             Debug.WriteLine(ex.Message);
         }
-
     }
 }

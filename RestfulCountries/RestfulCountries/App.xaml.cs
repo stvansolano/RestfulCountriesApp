@@ -1,8 +1,8 @@
-﻿using Xamarin.Forms;
-
-[assembly: Xamarin.Forms.Xaml.XamlCompilation(Xamarin.Forms.Xaml.XamlCompilationOptions.Compile)]
+﻿[assembly: Xamarin.Forms.Xaml.XamlCompilation(Xamarin.Forms.Xaml.XamlCompilationOptions.Compile)]
 namespace RestfulCountries
 {
+	using Xamarin.Forms;
+
     public partial class App : Application
     {
         public App()

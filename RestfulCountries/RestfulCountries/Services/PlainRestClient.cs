@@ -53,9 +53,9 @@ namespace RestfulCountries
 			return result;
 		}
 
-		protected string FromUrl(string baseUrl, string alpha2Code)
+		protected string FromUrl(string baseUrl, string resource)
 		{
-			return string.Join("/", baseUrl, alpha2Code);
+			return string.Join("/", baseUrl, resource);
 		}
     }
 }
